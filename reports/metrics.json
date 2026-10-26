@@ -1,0 +1,216 @@
+{
+  "data": {
+    "train_rows": 48000,
+    "train_dates": [
+      "2025-01-01",
+      "2025-10-31"
+    ],
+    "validation_rows": 12000,
+    "validation_dates": [
+      "2025-11-01",
+      "2025-12-31"
+    ],
+    "label_outliers_removed": 671,
+    "negative_weights_fixed": 292,
+    "missing_weight": 300,
+    "missing_market_index": 374
+  },
+  "rolling_time_split": [
+    {
+      "MAE_all_rows": 82.75,
+      "MAE_clean_rows": 28.44,
+      "MAPE_clean_rows_pct": 1.19,
+      "RMSE_clean_rows": 41.93,
+      "rows": 4912,
+      "test_month": "2025-07"
+    },
+    {
+      "MAE_all_rows": 160.37,
+      "MAE_clean_rows": 111.55,
+      "MAPE_clean_rows_pct": 5.71,
+      "RMSE_clean_rows": 149.11,
+      "rows": 4759,
+      "test_month": "2025-08"
+    },
+    {
+      "MAE_all_rows": 101.86,
+      "MAE_clean_rows": 50.64,
+      "MAPE_clean_rows_pct": 2.1,
+      "RMSE_clean_rows": 68.47,
+      "rows": 4670,
+      "test_month": "2025-09"
+    },
+    {
+      "MAE_all_rows": 105.34,
+      "MAE_clean_rows": 45.89,
+      "MAPE_clean_rows_pct": 1.97,
+      "RMSE_clean_rows": 94.01,
+      "rows": 4853,
+      "test_month": "2025-10"
+    }
+  ],
+  "unseen_city_split": {
+    "MAE_all_rows": 115.87,
+    "MAE_clean_rows": 59.27,
+    "MAPE_clean_rows_pct": 2.38,
+    "RMSE_clean_rows": 127.67,
+    "rows": 2516,
+    "held_out_cities": [
+      "Bakersfield",
+      "Hartford",
+      "Memphis",
+      "New York",
+      "San Antonio",
+      "Toledo",
+      "Tulsa",
+      "Washington"
+    ]
+  },
+  "feature_importance_gain_pct": {
+    "straight_miles": 30.5,
+    "log_distance": 22.32,
+    "eq_dry_van": 14.16,
+    "quote_signal": 13.36,
+    "distance": 9.04,
+    "eq_reefer": 2.7,
+    "quote_signal_day": 2.04,
+    "weight": 1.96,
+    "market_index_day": 0.91,
+    "market_index": 0.6,
+    "pickup_lat": 0.56,
+    "delivery_lat": 0.48,
+    "eq_flatbed": 0.46,
+    "pickup_lon": 0.35,
+    "delivery_lon": 0.3,
+    "lon_delta": 0.1,
+    "lat_delta": 0.09,
+    "day_of_week": 0.06,
+    "short_haul": 0.0
+  },
+  "december_predictions": [
+    {
+      "date": "2025-12-01",
+      "predicted_rate": 776.23
+    },
+    {
+      "date": "2025-12-02",
+      "predicted_rate": 789.16
+    },
+    {
+      "date": "2025-12-03",
+      "predicted_rate": 806.58
+    },
+    {
+      "date": "2025-12-04",
+      "predicted_rate": 806.54
+    },
+    {
+      "date": "2025-12-05",
+      "predicted_rate": 805.53
+    },
+    {
+      "date": "2025-12-06",
+      "predicted_rate": 784.07
+    },
+    {
+      "date": "2025-12-07",
+      "predicted_rate": 775.88
+    },
+    {
+      "date": "2025-12-08",
+      "predicted_rate": 775.34
+    },
+    {
+      "date": "2025-12-09",
+      "predicted_rate": 785.66
+    },
+    {
+      "date": "2025-12-10",
+      "predicted_rate": 807.01
+    },
+    {
+      "date": "2025-12-11",
+      "predicted_rate": 815.14
+    },
+    {
+      "date": "2025-12-12",
+      "predicted_rate": 805.11
+    },
+    {
+      "date": "2025-12-13",
+      "predicted_rate": 782.44
+    },
+    {
+      "date": "2025-12-14",
+      "predicted_rate": 776.47
+    },
+    {
+      "date": "2025-12-15",
+      "predicted_rate": 778.48
+    },
+    {
+      "date": "2025-12-16",
+      "predicted_rate": 790.48
+    },
+    {
+      "date": "2025-12-17",
+      "predicted_rate": 809.75
+    },
+    {
+      "date": "2025-12-18",
+      "predicted_rate": 810.23
+    },
+    {
+      "date": "2025-12-19",
+      "predicted_rate": 803.51
+    },
+    {
+      "date": "2025-12-20",
+      "predicted_rate": 782.48
+    },
+    {
+      "date": "2025-12-21",
+      "predicted_rate": 771.93
+    },
+    {
+      "date": "2025-12-22",
+      "predicted_rate": 781.77
+    },
+    {
+      "date": "2025-12-23",
+      "predicted_rate": 789.23
+    },
+    {
+      "date": "2025-12-24",
+      "predicted_rate": 808.74
+    },
+    {
+      "date": "2025-12-25",
+      "predicted_rate": 814.86
+    },
+    {
+      "date": "2025-12-26",
+      "predicted_rate": 806.93
+    },
+    {
+      "date": "2025-12-27",
+      "predicted_rate": 789.7
+    },
+    {
+      "date": "2025-12-28",
+      "predicted_rate": 790.36
+    },
+    {
+      "date": "2025-12-29",
+      "predicted_rate": 781.02
+    },
+    {
+      "date": "2025-12-30",
+      "predicted_rate": 789.15
+    },
+    {
+      "date": "2025-12-31",
+      "predicted_rate": 802.46
+    }
+  ]
+}
